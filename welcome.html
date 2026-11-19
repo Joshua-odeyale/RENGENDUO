@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RENGENDUO</title>
+    <link rel="icon" href="SVG/LOGO 2.svg" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="spinner"></div>
+      <p>Loading Regenduo...</p>
+    </div>
+
+    <!-- Navbar Begins -->
+    <nav>
+      <div class="logo-link-cont">
+        <div class="logo">
+          <button class="hamburger" id="hamburger" aria-label="Menu">
+            <i class="fas fa-bars"></i>
+          </button>
+          <img src="SVG/LOGO (5).svg" alt="Regenduo Logo" />
+        </div>
+
+        <div class="link" id="navLinks">
+          <a href="welcome.html">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Appointment</a>
+          <a href="#feedback">FeedBack</a>
+          <a href="#news">News</a>
+          <div class="toggle-container">
+            <i class="fas fa-moon icon"></i>
+            <button class="toggle-btn" id="darkModeToggle" aria-label="Toggle Dark Mode"></button>
+            <i class="fas fa-sun icon"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Nav Ends -->
+
+    <main>
+      <!-- 1st Page -->
+      <div class="main-container">
+        <div class="right-cont">
+          <p>
+            <img src="SVG/STAR.svg" alt="Star" width="30" /> EXPERT MEDICAL TREATMENT
+          </p>
+          <div class="second-cont">
+            <h1>Personalised Care For Optimal Health</h1>
+            <h3>
+              Rengenduo offers practical resources and expert care to help improve your overall health and wellbeing.
+            </h3>
+          </div>
+          <div class="button-cont">
+            <button id="appointment" onclick="clickButton()">
+              Make an Appointment <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="left-cont">
+          <img src="IMG/client.png" alt="Doctor" />
+        </div>
+      </div>
+    
+
+      <!-- Second container-->
+      <section id="about">
+        <div class="second-container">
+          <div class="text1">
+            <img src="SVG/game-icons_caduceus.svg" alt="Caduceus Icon" />
+            <h3>High quality care</h3>
+            <h4>
+              Experienced healthcare professionals dedicated to providing exceptional care.
+            </h4>
+          </div>
+          <div class="text2">
+            <img src="SVG/ant-design_clock-circle-outlined.svg" alt="Clock Icon" />
+            <h3>24/7 hour services</h3>
+            <h4>
+              Dedicated to providing round-the-clock healthcare services and support.
+            </h4>
+          </div>
+          <div class="text3">
+            <img src="SVG/la_medal.svg" alt="Medal Icon" />
+            <h3>5+ experienced years</h3>
+            <h4>
+              Providing healthcare services for 5+ years, with a focus on patient satisfaction.
+            </h4>
+          </div>
+        </div>
+        
+
+        <!-- Paragraph begins -->
+        <div class="paragraph">
+          <div class="first-p">
+            <h1>
+              The Best Quality <br />
+              Service For Your <br />
+              Family
+            </h1>
+          </div>
+          <div class="second-p">
+            <h4>
+              With our healthcare service, you can rest assured that <br />
+              your family's health and wellbeing are in good hands, as we <br />
+              strive to offer nothing but the highest quality care.
+            </h4>
+            <button onclick="clickButton()">Learn More</button>
+          </div>
+        </div>
+      </section>
+      <!-- Paragraph ends -->
+
+      <!-- button-container start -->
+      <section id="services">
+        <div data-aos="fade-up" data-aos-duration="3000" class="button-container">
+          <div class="btn1">
+            <img src="SVG/ICON.svg" alt="Primary Care" />
+            <h4>
+              Primary Care <br />
+              We provide basic healthcare services such as routine checkups, screenings and immunizations.
+            </h4>
+            <h5><a href="#contact">Learn more</a></h5>
+          </div>
+          <div class="btn1">
+            <img src="SVG/ICON 2.svg" alt="Emergency Care" />
+            <h4>
+              Emergency Care <br />
+              Experienced personnel on ground at all times in case of emergency situations.
+            </h4>
+            <h5><a href="#contact">Learn more</a></h5>
+          </div>
+          <div class="btn1">
+            <img src="SVG/ICON 3.svg" alt="Pharmaceutical Care" />
+            <h4>
+              Pharmaceutical Care <br />
+              Our pharmaceutical care team is dedicated to helping you achieve your health goals.
+            </h4>
+            <h5><a href="#contact">Learn more</a></h5>
+          </div>
+          <div class="btn1">
+            <img src="SVG/ICON 4.svg" alt="Nutritional Support" />
+            <h4>
+              Nutritional Support <br />
+              Let our healthcare organization help you improve your health and wellbeing with nutritional support.
+            </h4>
+            <h5><a href="#contact">Learn more</a></h5>
+          </div>
+          <div class="btn1">
+            <img src="SVG/ICON5.svg" alt="Laboratory & Diagnostic Care" />
+            <h4>
+              Laboratory & diagnostic care <br />
+              Experience reliable and professional Laboratory & Diagnostic Care with us.
+            </h4>
+            <h5><a href="#contact">Learn more</a></h5>
+          </div>
+          <div class="btn1">
+            <img src="SVG/ICON 6.svg" alt="Physical & Mental Therapy" />
+            <h4>
+              Physical & mental therapy <br />
+              Our physical and mental therapy services are tailored to your specific needs and goals.
+            </h4>
+            <h5><a href="#contact">Learn more</a></h5>
+          </div>
+        </div>
+      </section>
+      <!-- button-container ends -->
+
+      <!-- Form begins -->
+      <section id="contact">
+        <div class="Form">
+          <div class="form1">
+            <h1>Make An Appointment</h1>
+            <img src="SVG/appointment.svg" alt="Appointment Line" />
+            <h4>
+              Don't wait, book your appointment today and take the first step towards a healthier you!
+            </h4>
+            <form id="form">
+              <div class="input1">
+                <input id="firstName" type="text" placeholder="First name" required />
+                <div class="error"></div>
+              </div>
+              <div class="input1">
+                <input id="lastName" type="text" placeholder="Last name" required />
+                <div class="error"></div>
+              </div>
+              <div class="input1">
+                <input id="phone" type="tel" placeholder="Phone number" required />
+                <div class="error"></div>
+              </div>
+              <div class="input1">
+                <input id="date" type="date" required />
+                <div class="error"></div>
+              </div>
+              <div class="input1">
+                <textarea id="message" placeholder="Message*" required></textarea>
+              </div>
+              <button type="submit" id="toggleButton">
+                <span id="loadingButton">Make an Appointment</span>
+              </button>
+            </form>
+          </div>
+
+          <div class="form2">
+            <img src="IMG/IMG 2.png" alt="Woman Doctor" />
+          </div>
+        </div>
+      </section>
+      <!-- Form Ends -->
+
+      <!-- Feedback begins -->
+      <section id="feedback">
+        <div class="Feedback">
+          <p>Our Customer Feedback</p>
+          <h4>Don't take our word for it. Trust our Customers</h4>
+
+          <div class="flex">
+            <div class="container1">
+              <div class="img-c">
+                <img src="IMG/PROFILE.png" alt="Darlene Robertson" />
+                <div class="star">
+                  <img src="SVG/star_purple500.svg" alt="Star" />
+                  <img src="SVG/star_purple500.svg" alt="Star" />
+                  <img src="SVG/star_purple500.svg" alt="Star" />
+                  <img src="SVG/star_half.svg" alt="Half Star" />
+                  <img src="SVG/star_outline.svg" alt="No Star" />
+                </div>
+              </div>
+              <h1>Darlene Robertson</h1>
+              <h3>
+                I had a great experience at Regenduo. The doctors and nurses were attentive and thorough, and they went out of their way to make sure I was comfortable and well-cared for.
+              </h3>
+            </div>
+
+            <div class="container1">
+              <div class="img-c">
+                <img src="IMG/PROFILE 2.png" alt="Marvin Mckinny" />
+                <div class="star">
+                  <img src="SVG/star_purple500.svg" alt="Star" />
+                  <img src="SVG/star_purple500.svg"  alt="Star" />
+                  <img src="SVG/star_purple500.svg" alt="Star" />
+                  <img src="SVG/star_purple500.svg"alt="Star" />
+                  <img src="SVG/star_half.svg" alt="Half Star" />
+                </div>
+              </div>
+              <h1>Marvin Mckinny</h1>
+              <h3>
+                I had a great experience at Regenduo. The doctors and nurses were attentive and thorough, and they went out of their way to make sure I was comfortable and well-cared for.
+              </h3>
+            </div>
+
+            <div class="container1">
+              <div class="img-c">
+                <img src="IMG/PROFILE 3.png" alt="Dianne Russell" />
+                <div class="star">
+                  <img src="SVG/star_purple500.svg" alt="Star" />
+                  <img src="SVG/star_purple500.svg" alt="Star" />
+                  <img src="SVG/star_purple500.svg" alt="Star" />
+                  <img src="SVG/star_half.svg" alt="Half Star" />
+                  <img src="SVG/star_outline.svg" alt="No Star" />
+                </div>
+              </div>
+              <h1>Dianne Russell</h1>
+              <h3>
+                I had a great experience at Regenduo. The doctors and nurses were attentive and thorough, and they went out of their way to make sure I was comfortable and well-cared for.
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- News Begins -->
+      <section id="news">
+        <div class="news">
+          <div class="headings">
+            <h1>Latest Tips and News</h1>
+            <img src="SVG/appointment.svg" alt="Line" />
+            <p>
+              Keep up with the latest healthcare news and tips to stay healthy and informed.
+            </p>
+          </div>
+
+          <div class="news-container">
+            <div class="img-text">
+              <img src="IMG/BLOG.png" alt="Fruits" />
+              <span>
+                <h2>Fruits</h2>
+                <h3>- 5 mins read</h3>
+              </span>
+              <h1>Simple juice <br /> recipes to boost your immune system</h1>
+              <p>
+                When it comes to your juices, you want to ingest the highest quality out there. The organic certification ensures your juices are natural, pesticide-free, and GMO-free...
+              </p>
+              <button onclick="fun()">Read More</button>
+            </div>
+
+            <div class="img-text">
+              <img src="IMG/BLOG 3.png" alt="Virus" />
+              <span>
+                <h2>Virus</h2>
+                <h3>- 5 mins read</h3>
+              </span>
+              <h1>How Pandemics Leave the Poor Even Farther Behind</h1>
+              <p>
+                The COVID-19 crisis is now widely seen as the greatest economic calamity since the Great Depression. In January, the IMF expected global income to grow 3 percent...
+              </p>
+              <button onclick="fun()">Read More</button>
+            </div>
+
+            <div class="img-text">
+              <img src="IMG/BLOG 2.png" alt="Medicine" />
+              <span>
+                <h2>Medicine</h2>
+                <h3>- 5 mins read</h3>
+              </span>
+              <h1>Responsible e-Prescribing Needs e-Discontinuation</h1>
+              <p>
+                Implementation of electronic prescribing, also known as e-prescribing, has been one of the successes of health information technology and an advance in health care delivery. Clinician uptake of e-prescribing...
+              </p>
+              <button onclick="fun()">Read More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+
+      <div class="btn10">
+        <button onclick="fun()">View Blog</button>
+      </div>
+    </main>
+    <!-- Main ends -->
+
+    <!-- Footer begins -->
+    <footer>
+      <div class="footer">
+        <div class="footer-info">
+          <img src="SVG/LOGO 2.svg" alt="Logo" width="250" />
+          <p>GIITTECH,</p>
+          <p>Along, Ikeja inside, Lagos state</p>
+          <p>feranmirashford51@gmail.com</p>
+          <p>(+234)7086400013</p>
+          <div class="icon">
+            <a href="https://regen-expert-medical-treatment-group5.netlify.app/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://regen-expert-medical-treatment-group5.netlify.app/" target="_blank" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://regen-expert-medical-treatment-group5.netlify.app/" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://regen-expert-medical-treatment-group5.netlify.app/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="footer-flex">
+          <div class="link1">
+            <h4>Quick links</h4>
+            <a href="https://regen-expert-medical-treatment-group4.netlify.app/" target="_blank">Our Doctors</a>
+            <a href="https://regen-expert-medical-treatment-group4.netlify.app/" target="_blank">Contact us</a>
+            <a href="https://regen-expert-medical-treatment-group4.netlify.app/" target="_blank">Book an <br /> Appointment</a>
+          </div>
+
+          <div class="link1">
+            <h4>Company</h4>
+            <a href="https://regen-expert-medical-treatment-group4.netlify.app/" target="_blank">About us</a>
+            <a href="https://regen-expert-medical-treatment-group4.netlify.app/" target="_blank">Help Center</a>
+            <a href="https://regen-expert-medical-treatment-group4.netlify.app/" target="_blank">Privacy Policy</a>
+          </div>
+
+          <div class="link1">
+            <h4>Departments</h4>
+            <a href="https://regen-expert-medical-treatment-group4.netlify.app/" target="_blank">Neurosurgery</a>
+            <a href="https://regen-expert-medical-treatment-group4.netlify.app/" target="_blank">Cardiologist</a>
+            <a href="https://regen-expert-medical-treatment-group4.netlify.app/" target="_blank">Radiologist</a>
+            <a href="https://regen-expert-medical-treatment-group4.netlify.app/" target="_blank">Therapy</a>
+          </div>
+
+          <div class="link1">
+            <h4>Resources</h4>
+            <a href="https://regen-expert-medical-treatment-group4.netlify.app/" target="_blank">Guide</a>
+            <a href="https://regen-expert-medical-treatment-group4.netlify.app/" target="_blank">Blog</a>
+            <a href="https://regen-expert-medical-treatment-group4.netlify.app/" target="_blank">Customer <br /> stories</a>
+            <a href="https://regen-expert-medical-treatment-group4.netlify.app/" target="_blank">Help center</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer ends -->
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
